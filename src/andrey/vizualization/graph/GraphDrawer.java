@@ -266,7 +266,7 @@ public class GraphDrawer {
             int a = 0;
             for(Triangle triangle : allTriangles)
             {
-                renderTriangle((Triangle) triangle,a);
+                renderTriangle( triangle,a);
                 a++;
             }
 
